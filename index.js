@@ -1,4 +1,5 @@
-const FastRateLimit = require('fast-ratelimit').FastRateLimit;
+const FastRateLimit = require("@kidkarolis/not-so-fast");
+
 const errors = require('@feathersjs/errors');
 
 module.exports = function(options = {}) {
